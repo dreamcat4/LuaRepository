@@ -511,9 +511,6 @@
 [submodule "abelhas"]
 	path = abelhas
 	url = git://github.com/LuaDist/abelhas.git
-[submodule "LuaDist"]
-	path = LuaDist
-	url = git://github.com/LuaDist/LuaDist.git
 [submodule "luasocket"]
 	path = luasocket
 	url = git://github.com/LuaDist/luasocket.git
