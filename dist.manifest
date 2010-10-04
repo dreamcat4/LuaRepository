@@ -1,0 +1,873 @@
+return {
+{
+		['path'] = 	[[http://github.com/LuaDist/imlua/zipball/v3.6.1?/imlua.dist]],
+		['name'] = 	[[imlua]],
+		['version'] = 	[[3.6.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/sputnik_markitup/zipball/v9.03.16?/sputnik_markitup.dist]],
+		['name'] = 	[[sputnik_markitup]],
+		['version'] = 	[[9.03.16]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lgdbm/zipball/v5.1?/lgdbm.dist]],
+		['name'] = 	[[lgdbm]],
+		['version'] = 	[[5.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/iuplua/zipball/v3.1?/iuplua.dist]],
+		['name'] = 	[[iuplua]],
+		['version'] = 	[[3.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lua_memoryfile/zipball/v1.1?/lua_memoryfile.dist]],
+		['name'] = 	[[lua_memoryfile]],
+		['version'] = 	[[1.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luapi/zipball/v1.0?/luapi.dist]],
+		['name'] = 	[[luapi]],
+		['version'] = 	[[1.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/recaptcha/zipball/v9.03.16?/recaptcha.dist]],
+		['name'] = 	[[recaptcha]],
+		['version'] = 	[[9.03.16]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/numlua/zipball/v0.2.1?/numlua.dist]],
+		['name'] = 	[[numlua]],
+		['version'] = 	[[0.2.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luaexpat/zipball/v1.1.0?/luaexpat.dist]],
+		['name'] = 	[[luaexpat]],
+		['version'] = 	[[1.1.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/penlight/zipball/v0.7.2?/penlight.dist]],
+		['name'] = 	[[penlight]],
+		['version'] = 	[[0.7.2]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luagl/zipball/v1.3?/luagl.dist]],
+		['name'] = 	[[luagl]],
+		['version'] = 	[[1.3]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lpack/zipball/v5.1?/lpack.dist]],
+		['name'] = 	[[lpack]],
+		['version'] = 	[[5.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/xavante/zipball/v2.2.0?/xavante.dist]],
+		['name'] = 	[[xavante]],
+		['version'] = 	[[2.2.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/libexpat/zipball/v2.0.1?/libexpat.dist]],
+		['name'] = 	[[libexpat]],
+		['version'] = 	[[2.0.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/gpc/zipball/v2.32?/gpc.dist]],
+		['name'] = 	[[gpc]],
+		['version'] = 	[[2.32]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lv3/zipball/v20041203?/lv3.dist]],
+		['name'] = 	[[lv3]],
+		['version'] = 	[[20041203]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luacrypto/zipball/v0.2.0?/luacrypto.dist]],
+		['name'] = 	[[luacrypto]],
+		['version'] = 	[[0.2.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/slncrypto/zipball/v1.1?/slncrypto.dist]],
+		['name'] = 	[[slncrypto]],
+		['version'] = 	[[1.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luafish/zipball/v0.7?/luafish.dist]],
+		['name'] = 	[[luafish]],
+		['version'] = 	[[0.7]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/remdebug/zipball/v1.0?/remdebug.dist]],
+		['name'] = 	[[remdebug]],
+		['version'] = 	[[1.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lmock/zipball/v0.5?/lmock.dist]],
+		['name'] = 	[[lmock]],
+		['version'] = 	[[0.5]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/genx/zipball/v0.5.0?/genx.dist]],
+		['name'] = 	[[genx]],
+		['version'] = 	[[0.5.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/dado/zipball/v1.0?/dado.dist]],
+		['name'] = 	[[dado]],
+		['version'] = 	[[1.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luazip/zipball/v1.2.3?/luazip.dist]],
+		['name'] = 	[[luazip]],
+		['version'] = 	[[1.2.3]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/alien/zipball/v0.4.1?/alien.dist]],
+		['name'] = 	[[alien]],
+		['version'] = 	[[0.4.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/libpng/zipball/v1.4.1?/libpng.dist]],
+		['name'] = 	[[libpng]],
+		['version'] = 	[[1.4.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/gzio/zipball/v0.9.0?/gzio.dist]],
+		['name'] = 	[[gzio]],
+		['version'] = 	[[0.9.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luagraph/zipball/v1.0.3a?/luagraph.dist]],
+		['name'] = 	[[luagraph]],
+		['version'] = 	[[1.0.3a]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luacov/zipball/v0.2?/luacov.dist]],
+		['name'] = 	[[luacov]],
+		['version'] = 	[[0.2]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lsqlite3/zipball/v0.6devel?/lsqlite3.dist]],
+		['name'] = 	[[lsqlite3]],
+		['version'] = 	[[0.6devel]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/libgdbm/zipball/v1.8.3?/libgdbm.dist]],
+		['name'] = 	[[libgdbm]],
+		['version'] = 	[[1.8.3]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luagd/zipball/v2.0.33r2?/luagd.dist]],
+		['name'] = 	[[luagd]],
+		['version'] = 	[[2.0.33r2]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/iup/zipball/v3.1?/iup.dist]],
+		['name'] = 	[[iup]],
+		['version'] = 	[[3.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/pcre/zipball/v7.6?/pcre.dist]],
+		['name'] = 	[[pcre]],
+		['version'] = 	[[7.6]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luasys/zipball/v1.6?/luasys.dist]],
+		['name'] = 	[[luasys]],
+		['version'] = 	[[1.6]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lpeg/zipball/v0.9?/lpeg.dist]],
+		['name'] = 	[[lpeg]],
+		['version'] = 	[[0.9]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/kepler-xavante/zipball/v1.1.1?/kepler-xavante.dist]],
+		['name'] = 	[[kepler-xavante]],
+		['version'] = 	[[1.1.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/regex/zipball/v3.8a?/regex.dist]],
+		['name'] = 	[[regex]],
+		['version'] = 	[[3.8a]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/epeg/zipball/v0.5?/epeg.dist]],
+		['name'] = 	[[epeg]],
+		['version'] = 	[[0.5]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/gsl/zipball/v1.13?/gsl.dist]],
+		['name'] = 	[[gsl]],
+		['version'] = 	[[1.13]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/diluculum/zipball/v0.5.2?/diluculum.dist]],
+		['name'] = 	[[diluculum]],
+		['version'] = 	[[0.5.2]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/libsqlite3/zipball/v3.6.19?/libsqlite3.dist]],
+		['name'] = 	[[libsqlite3]],
+		['version'] = 	[[3.6.19]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luaunit/zipball/v1.3?/luaunit.dist]],
+		['name'] = 	[[luaunit]],
+		['version'] = 	[[1.3]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lmathx/zipball/v5.1?/lmathx.dist]],
+		['name'] = 	[[lmathx]],
+		['version'] = 	[[5.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/getopt/zipball/v0.1.1?/getopt.dist]],
+		['name'] = 	[[getopt]],
+		['version'] = 	[[0.1.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/markdown/zipball/v0.32?/markdown.dist]],
+		['name'] = 	[[markdown]],
+		['version'] = 	[[0.32]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/wsapi-xavante/zipball/v1.3.4?/wsapi-xavante.dist]],
+		['name'] = 	[[wsapi-xavante]],
+		['version'] = 	[[1.3.4]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/qtlua/zipball/v1.2?/qtlua.dist]],
+		['name'] = 	[[qtlua]],
+		['version'] = 	[[1.2]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/cheese/zipball/v0.1alpha?/cheese.dist]],
+		['name'] = 	[[cheese]],
+		['version'] = 	[[0.1alpha]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/sputnik_tickets/zipball/v8.07.21?/sputnik_tickets.dist]],
+		['name'] = 	[[sputnik_tickets]],
+		['version'] = 	[[8.07.21]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/cgilua/zipball/v5.1.4?/cgilua.dist]],
+		['name'] = 	[[cgilua]],
+		['version'] = 	[[5.1.4]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luadoc/zipball/v3.0.1?/luadoc.dist]],
+		['name'] = 	[[luadoc]],
+		['version'] = 	[[3.0.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/gslshell/zipball/v0.6?/gslshell.dist]],
+		['name'] = 	[[gslshell]],
+		['version'] = 	[[0.6]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/libjpeg/zipball/v8?/libjpeg.dist]],
+		['name'] = 	[[libjpeg]],
+		['version'] = 	[[8]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lua_signal/zipball/v1.000?/lua_signal.dist]],
+		['name'] = 	[[lua_signal]],
+		['version'] = 	[[1.000]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/versium/zipball/v9.02.15?/versium.dist]],
+		['name'] = 	[[versium]],
+		['version'] = 	[[9.02.15]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lua-xmlreader/zipball/v0.1?/lua-xmlreader.dist]],
+		['name'] = 	[[lua-xmlreader]],
+		['version'] = 	[[0.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/sool/zipball/v10beta1?/sool.dist]],
+		['name'] = 	[[sool]],
+		['version'] = 	[[10beta1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lua/zipball/v5.1.4?/lua.dist]],
+		['name'] = 	[[lua]],
+		['version'] = 	[[5.1.4]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/libarchive/zipball/v2.8.3?/libarchive.dist]],
+		['name'] = 	[[libarchive]],
+		['version'] = 	[[2.8.3]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luamatrix/zipball/v0.2.8?/luamatrix.dist]],
+		['name'] = 	[[luamatrix]],
+		['version'] = 	[[0.2.8]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luasec/zipball/v0.4?/luasec.dist]],
+		['name'] = 	[[luasec]],
+		['version'] = 	[[0.4]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/colors/zipball/v8.05.26?/colors.dist]],
+		['name'] = 	[[colors]],
+		['version'] = 	[[8.05.26]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lua_uri/zipball/v1.0?/lua_uri.dist]],
+		['name'] = 	[[lua_uri]],
+		['version'] = 	[[1.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/cosmo/zipball/v9.09.22?/cosmo.dist]],
+		['name'] = 	[[cosmo]],
+		['version'] = 	[[9.09.22]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luasql-sqlite/zipball/v2.2.0?/luasql-sqlite.dist]],
+		['name'] = 	[[luasql-sqlite]],
+		['version'] = 	[[2.2.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/onig/zipball/v5.9.1?/onig.dist]],
+		['name'] = 	[[onig]],
+		['version'] = 	[[5.9.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lbase64/zipball/v5.1?/lbase64.dist]],
+		['name'] = 	[[lbase64]],
+		['version'] = 	[[5.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/libzzip/zipball/v0.13.58?/libzzip.dist]],
+		['name'] = 	[[libzzip]],
+		['version'] = 	[[0.13.58]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luaprofiler/zipball/v2.0.2?/luaprofiler.dist]],
+		['name'] = 	[[luaprofiler]],
+		['version'] = 	[[2.0.2]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luapod/zipball/v0.1?/luapod.dist]],
+		['name'] = 	[[luapod]],
+		['version'] = 	[[0.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lzlib/zipball/v0.4work2?/lzlib.dist]],
+		['name'] = 	[[lzlib]],
+		['version'] = 	[[0.4work2]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lcms2/zipball/v2.0a?/lcms2.dist]],
+		['name'] = 	[[lcms2]],
+		['version'] = 	[[2.0a]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/scintilla/zipball/v2.11?/scintilla.dist]],
+		['name'] = 	[[scintilla]],
+		['version'] = 	[[2.11]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lbc/zipball/v5.1?/lbc.dist]],
+		['name'] = 	[[lbc]],
+		['version'] = 	[[5.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lualnum/zipball/v5.1.4.20090417?/lualnum.dist]],
+		['name'] = 	[[lualnum]],
+		['version'] = 	[[5.1.4.20090417]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lip/zipball/v0.1?/lip.dist]],
+		['name'] = 	[[lip]],
+		['version'] = 	[[0.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lualogging/zipball/v1.1.4?/lualogging.dist]],
+		['name'] = 	[[lualogging]],
+		['version'] = 	[[1.1.4]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/libtiff/zipball/v3.8.2?/libtiff.dist]],
+		['name'] = 	[[libtiff]],
+		['version'] = 	[[3.8.2]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lua_iconv/zipball/v6?/lua_iconv.dist]],
+		['name'] = 	[[lua_iconv]],
+		['version'] = 	[[6]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luatokenf/zipball/v5.1.4?/luatokenf.dist]],
+		['name'] = 	[[luatokenf]],
+		['version'] = 	[[5.1.4]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/libdevil/zipball/v1.7.8?/libdevil.dist]],
+		['name'] = 	[[libdevil]],
+		['version'] = 	[[1.7.8]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luasocket/zipball/v2.0.2?/luasocket.dist]],
+		['name'] = 	[[luasocket]],
+		['version'] = 	[[2.0.2]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lascii85/zipball/v5.1?/lascii85.dist]],
+		['name'] = 	[[lascii85]],
+		['version'] = 	[[5.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/tokyocabinet/zipball/v1.4.29?/tokyocabinet.dist]],
+		['name'] = 	[[tokyocabinet]],
+		['version'] = 	[[1.4.29]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/abelhas/zipball/v1.0?/abelhas.dist]],
+		['name'] = 	[[abelhas]],
+		['version'] = 	[[1.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/kepler/zipball/v1.1.1?/kepler.dist]],
+		['name'] = 	[[kepler]],
+		['version'] = 	[[1.1.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lgpc/zipball/v5.1?/lgpc.dist]],
+		['name'] = 	[[lgpc]],
+		['version'] = 	[[5.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/boostmathspecialfunctions/zipball/v0.1.1?/boostmathspecialfunctions.dist]],
+		['name'] = 	[[boostmathspecialfunctions]],
+		['version'] = 	[[0.1.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/bzip2/zipball/v1.0.5?/bzip2.dist]],
+		['name'] = 	[[bzip2]],
+		['version'] = 	[[1.0.5]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/shake/zipball/v1.0.1?/shake.dist]],
+		['name'] = 	[[shake]],
+		['version'] = 	[[1.0.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/cd/zipball/v5.3?/cd.dist]],
+		['name'] = 	[[cd]],
+		['version'] = 	[[5.3]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luasql-mysql/zipball/v2.2.0?/luasql-mysql.dist]],
+		['name'] = 	[[luasql-mysql]],
+		['version'] = 	[[2.2.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lua_tinycdb/zipball/v0.2?/lua_tinycdb.dist]],
+		['name'] = 	[[lua_tinycdb]],
+		['version'] = 	[[0.2]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/cdlua/zipball/v5.3?/cdlua.dist]],
+		['name'] = 	[[cdlua]],
+		['version'] = 	[[5.3]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luasoap/zipball/v1.0b?/luasoap.dist]],
+		['name'] = 	[[luasoap]],
+		['version'] = 	[[1.0b]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/classlib/zipball/v2.02?/classlib.dist]],
+		['name'] = 	[[classlib]],
+		['version'] = 	[[2.02]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/scite/zipball/v2.11?/scite.dist]],
+		['name'] = 	[[scite]],
+		['version'] = 	[[2.11]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/cmake/zipball/v2.8.1?/cmake.dist]],
+		['name'] = 	[[cmake]],
+		['version'] = 	[[2.8.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luaex/zipball/v20091019?/luaex.dist]],
+		['name'] = 	[[luaex]],
+		['version'] = 	[[20091019]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/concurrentlua/zipball/v1.0.3?/concurrentlua.dist]],
+		['name'] = 	[[concurrentlua]],
+		['version'] = 	[[1.0.3]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luajson/zipball/v1.0?/luajson.dist]],
+		['name'] = 	[[luajson]],
+		['version'] = 	[[1.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/copas/zipball/v1.1.6?/copas.dist]],
+		['name'] = 	[[copas]],
+		['version'] = 	[[1.1.6]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/config/zipball/v1.0.0?/config.dist]],
+		['name'] = 	[[config]],
+		['version'] = 	[[1.0.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/zlib/zipball/v1.2.3?/zlib.dist]],
+		['name'] = 	[[zlib]],
+		['version'] = 	[[1.2.3]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/tcc/zipball/v0.9.25?/tcc.dist]],
+		['name'] = 	[[tcc]],
+		['version'] = 	[[0.9.25]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luabind/zipball/v0.9-rc1?/luabind.dist]],
+		['name'] = 	[[luabind]],
+		['version'] = 	[[0.9-rc1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/coxpcall/zipball/v1.13.0?/coxpcall.dist]],
+		['name'] = 	[[coxpcall]],
+		['version'] = 	[[1.13.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/kepler-fastcgi/zipball/v1.1.1?/kepler-fastcgi.dist]],
+		['name'] = 	[[kepler-fastcgi]],
+		['version'] = 	[[1.1.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/etree/zipball/v0.1.1?/etree.dist]],
+		['name'] = 	[[etree]],
+		['version'] = 	[[0.1.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/fcgi/zipball/v2.4.0?/fcgi.dist]],
+		['name'] = 	[[fcgi]],
+		['version'] = 	[[2.4.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/freeglut/zipball/v2.6.0?/freeglut.dist]],
+		['name'] = 	[[freeglut]],
+		['version'] = 	[[2.6.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/glew/zipball/v1.5.4?/glew.dist]],
+		['name'] = 	[[glew]],
+		['version'] = 	[[1.5.4]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/mapm/zipball/v4.9.5?/mapm.dist]],
+		['name'] = 	[[mapm]],
+		['version'] = 	[[4.9.5]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/mixlua/zipball/v0.2.7?/mixlua.dist]],
+		['name'] = 	[[mixlua]],
+		['version'] = 	[[0.2.7]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lua_discount/zipball/v1.2.10.1?/lua_discount.dist]],
+		['name'] = 	[[lua_discount]],
+		['version'] = 	[[1.2.10.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luabitop/zipball/v1.0.1?/luabitop.dist]],
+		['name'] = 	[[luabitop]],
+		['version'] = 	[[1.0.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luatask/zipball/v1.6.4?/luatask.dist]],
+		['name'] = 	[[luatask]],
+		['version'] = 	[[1.6.4]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/bitlib/zipball/v26?/bitlib.dist]],
+		['name'] = 	[[bitlib]],
+		['version'] = 	[[26]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luaidl/zipball/v0.8.9beta?/luaidl.dist]],
+		['name'] = 	[[luaidl]],
+		['version'] = 	[[0.8.9beta]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/diff/zipball/v8.06.15?/diff.dist]],
+		['name'] = 	[[diff]],
+		['version'] = 	[[8.06.15]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lalarm/zipball/v5.1?/lalarm.dist]],
+		['name'] = 	[[lalarm]],
+		['version'] = 	[[5.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lanes/zipball/v2.0.3?/lanes.dist]],
+		['name'] = 	[[lanes]],
+		['version'] = 	[[2.0.3]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/bin2clua/zipball/v20091010?/bin2clua.dist]],
+		['name'] = 	[[bin2clua]],
+		['version'] = 	[[20091010]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lazykit/zipball/v0.1?/lazykit.dist]],
+		['name'] = 	[[lazykit]],
+		['version'] = 	[[0.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/simulua/zipball/v0.1?/simulua.dist]],
+		['name'] = 	[[simulua]],
+		['version'] = 	[[0.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/olua/zipball/v0.0.1prealpha?/olua.dist]],
+		['name'] = 	[[olua]],
+		['version'] = 	[[0.0.1prealpha]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/sputnik/zipball/v9.03.16?/sputnik.dist]],
+		['name'] = 	[[sputnik]],
+		['version'] = 	[[9.03.16]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lunit/zipball/v0.5?/lunit.dist]],
+		['name'] = 	[[lunit]],
+		['version'] = 	[[0.5]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luasql-sqlite3/zipball/v2.2.0?/luasql-sqlite3.dist]],
+		['name'] = 	[[luasql-sqlite3]],
+		['version'] = 	[[2.2.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/toluapp/zipball/v1.0.93?/toluapp.dist]],
+		['name'] = 	[[toluapp]],
+		['version'] = 	[[1.0.93]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lualibusb/zipball/v0.4?/lualibusb.dist]],
+		['name'] = 	[[lualibusb]],
+		['version'] = 	[[0.4]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/wxlua/zipball/v2.8.10.0?/wxlua.dist]],
+		['name'] = 	[[wxlua]],
+		['version'] = 	[[2.8.10.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luaxml/zipball/v1.7.3?/luaxml.dist]],
+		['name'] = 	[[luaxml]],
+		['version'] = 	[[1.7.3]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lmapm/zipball/v5.1?/lmapm.dist]],
+		['name'] = 	[[lmapm]],
+		['version'] = 	[[5.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/xstring/zipball/v1.1?/xstring.dist]],
+		['name'] = 	[[xstring]],
+		['version'] = 	[[1.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luajit/zipball/v1.1.5?/luajit.dist]],
+		['name'] = 	[[luajit]],
+		['version'] = 	[[1.1.5]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/im/zipball/v3.6.1?/im.dist]],
+		['name'] = 	[[im]],
+		['version'] = 	[[3.6.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/md5/zipball/v1.1.2?/md5.dist]],
+		['name'] = 	[[md5]],
+		['version'] = 	[[1.1.2]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luafilesystem/zipball/v1.5?/luafilesystem.dist]],
+		['name'] = 	[[luafilesystem]],
+		['version'] = 	[[1.5]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luaglut/zipball/v0.5?/luaglut.dist]],
+		['name'] = 	[[luaglut]],
+		['version'] = 	[[0.5]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/pluto/zipball/v2.4?/pluto.dist]],
+		['name'] = 	[[pluto]],
+		['version'] = 	[[2.4]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/libffi/zipball/v3.0.8?/libffi.dist]],
+		['name'] = 	[[libffi]],
+		['version'] = 	[[3.0.8]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luaposix/zipball/v5.1.4?/luaposix.dist]],
+		['name'] = 	[[luaposix]],
+		['version'] = 	[[5.1.4]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/libmng/zipball/v1.0.10?/libmng.dist]],
+		['name'] = 	[[libmng]],
+		['version'] = 	[[1.0.10]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/loop/zipball/v2.3beta?/loop.dist]],
+		['name'] = 	[[loop]],
+		['version'] = 	[[2.3beta]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lpc/zipball/v1.0.0?/lpc.dist]],
+		['name'] = 	[[lpc]],
+		['version'] = 	[[1.0.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lbci/zipball/v5.1?/lbci.dist]],
+		['name'] = 	[[lbci]],
+		['version'] = 	[[5.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/openssl/zipball/v1.0.0?/openssl.dist]],
+		['name'] = 	[[openssl]],
+		['version'] = 	[[1.0.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/objl/zipball/v0.05aplpha?/objl.dist]],
+		['name'] = 	[[objl]],
+		['version'] = 	[[0.05aplpha]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luaxmlrpc/zipball/v1.0b?/luaxmlrpc.dist]],
+		['name'] = 	[[luaxmlrpc]],
+		['version'] = 	[[1.0b]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luajava/zipball/v1.1?/luajava.dist]],
+		['name'] = 	[[luajava]],
+		['version'] = 	[[1.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/wsapi-fcgi/zipball/v1.3.4?/wsapi-fcgi.dist]],
+		['name'] = 	[[wsapi-fcgi]],
+		['version'] = 	[[1.3.4]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/zip/zipball/v3.0?/zip.dist]],
+		['name'] = 	[[zip]],
+		['version'] = 	[[3.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/slnunicode/zipball/v1.1?/slnunicode.dist]],
+		['name'] = 	[[slnunicode]],
+		['version'] = 	[[1.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/tokyocabinet_lua/zipball/v1.8?/tokyocabinet_lua.dist]],
+		['name'] = 	[[tokyocabinet_lua]],
+		['version'] = 	[[1.8]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/stdlib/zipball/v12?/stdlib.dist]],
+		['name'] = 	[[stdlib]],
+		['version'] = 	[[12]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lrandom/zipball/v5.1?/lrandom.dist]],
+		['name'] = 	[[lrandom]],
+		['version'] = 	[[5.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luaffi/zipball/v0.9.0?/luaffi.dist]],
+		['name'] = 	[[luaffi]],
+		['version'] = 	[[0.9.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luacontractor/zipball/v0.6?/luacontractor.dist]],
+		['name'] = 	[[luacontractor]],
+		['version'] = 	[[0.6]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/leg/zipball/v0.1.2?/leg.dist]],
+		['name'] = 	[[leg]],
+		['version'] = 	[[0.1.2]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lrexlib/zipball/v2.4.0?/lrexlib.dist]],
+		['name'] = 	[[lrexlib]],
+		['version'] = 	[[2.4.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luma/zipball/v0.1?/luma.dist]],
+		['name'] = 	[[luma]],
+		['version'] = 	[[0.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lclomplex/zipball/v5.1?/lclomplex.dist]],
+		['name'] = 	[[lclomplex]],
+		['version'] = 	[[5.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luacom/zipball/v1.3?/luacom.dist]],
+		['name'] = 	[[luacom]],
+		['version'] = 	[[1.3]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/venv/zipball/v1.1?/venv.dist]],
+		['name'] = 	[[venv]],
+		['version'] = 	[[1.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luacurl/zipball/v1.2.1?/luacurl.dist]],
+		['name'] = 	[[luacurl]],
+		['version'] = 	[[1.2.1]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/objectlua/zipball/v0.4.12?/objectlua.dist]],
+		['name'] = 	[[objectlua]],
+		['version'] = 	[[0.4.12]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/luadate/zipball/v2?/luadate.dist]],
+		['name'] = 	[[luadate]],
+		['version'] = 	[[2]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/unzip/zipball/v6.0?/unzip.dist]],
+		['name'] = 	[[unzip]],
+		['version'] = 	[[6.0]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/lcms/zipball/v1.19?/lcms.dist]],
+		['name'] = 	[[lcms]],
+		['version'] = 	[[1.19]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/xssfilter/zipball/v9.02.15?/xssfilter.dist]],
+		['name'] = 	[[xssfilter]],
+		['version'] = 	[[9.02.15]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/rings/zipball/v1.2.3?/rings.dist]],
+		['name'] = 	[[rings]],
+		['version'] = 	[[1.2.3]],
+	},
+{
+		['path'] = 	[[http://github.com/LuaDist/saci/zipball/v9.03.16?/saci.dist]],
+		['name'] = 	[[saci]],
+		['version'] = 	[[9.03.16]],
+	},
+},
+true
