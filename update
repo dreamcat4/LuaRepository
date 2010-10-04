@@ -1,0 +1,11 @@
+#!/bin/sh
+
+for module in *; do
+	if [ -d "$module" ]; then
+		cd "$module";
+		git checkout master;
+		cd ..;
+	fi
+done
+
+exit 0
