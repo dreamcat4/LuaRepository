@@ -520,3 +520,6 @@
 [submodule "luafilesystem"]
 	path = luafilesystem
 	url = git://github.com/LuaDist/luafilesystem.git
+[submodule "luadist"]
+	path = luadist
+	url = git://github.com/LuaDist/luadist.git
