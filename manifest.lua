@@ -1,10 +1,12 @@
-local persist = require "dist.persist"
+#!/bin/env lua
 
-local manifest = {}
-
-local modules = io.open(".gitmodules", "r")
+--- A GitHub specific manifest generator for the LuaDist deployment utility
+local per = require "dist.persist"
+local man = require "dist.manifest"
+local fet = require "dist.fetch"
 
 -- Collect URLs of repos for each module
+local modules = io.open(".gitmodules", "r")
 local repo = {}
 for line in modules:lines() do
     url = line:match("%surl%s=%s([^%s]+)")
@@ -22,11 +24,19 @@ for name, url in pairs(repo) do
     for line in remote:lines() do
         local hash, tag = line:match("([^%s]+)%srefs/tags/v([^%s%^]+)$")
         if hash and tag then
-            local dist = { name = name, version = tag, path = "http://github.com/LuaDist/"..name.."/zipball/v"..tag.."?/"..name..".dist"}
-            print(dist.name, dist.version, dist.path)
-            table.insert(manifest, dist)
+            -- Collect dist.info for each tag
+            local url = "http://github.com/LuaDist/"..name.."/raw/v"..tag.."/dist.info"
+            local info = man.info(per.loadText(fet.get(url)) or {})
+            if info then
+                print(info.name, info.version)
+                -- Small hack to generate correct filename
+                -- I apologize to GitHub for (ab)using their automated zip feature.
+                info.path = "http://github.com/LuaDist/"..name.."/zipball/v"..tag.."?/"..info.name.."-"..info.version..".dist"
+                table.insert(manifest, info)
+            end
         end
     end
+    remote:close()
 end
 
-persist.saveManifest("dist.manifest", manifest)
+per.saveManifest("dist.manifest", manifest)
