@@ -25,7 +25,7 @@ for name, url in pairs(repo) do
         local hash, tag = line:match("([^%s]+)%srefs/tags/v([^%s%^]+)$")
         if hash and tag then
             -- Collect dist.info for each tag
-            local url = "http://github.com/LuaDist/"..name.."/raw/v"..tag.."/dist.info"
+            local url = "https://github.com/LuaDist/"..name.."/raw/v"..tag.."/dist.info"
             local info = man.info(per.loadText(fet.get(url)) or {})
             if info then
                 print(info.name, info.version)
