@@ -526,3 +526,9 @@
 [submodule "lua-stdlib"]
 	path = lua-stdlib
 	url = git://github.com/LuaDist/lua-stdlib.git
+[submodule "batteries"]
+	path = batteries
+	url = git://github.com/LuaDist/batteries.git
+[submodule "oil"]
+	path = oil
+	url = git://github.com/LuaDist/oil.git
