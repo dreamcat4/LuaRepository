@@ -532,3 +532,6 @@
 [submodule "oil"]
 	path = oil
 	url = git://github.com/LuaDist/oil.git
+[submodule "librs232"]
+	path = librs232
+	url = git://github.com/LuaDist/librs232.git
