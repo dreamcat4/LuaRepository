@@ -535,3 +535,6 @@
 [submodule "librs232"]
 	path = librs232
 	url = git://github.com/LuaDist/librs232.git
+[submodule "lemock"]
+	path = lemock
+	url = git://github.com/LuaDist/lemock.git
