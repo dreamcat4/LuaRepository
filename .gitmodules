@@ -538,3 +538,6 @@
 [submodule "lemock"]
 	path = lemock
 	url = git://github.com/LuaDist/lemock.git
+[submodule "wsapi"]
+	path = wsapi
+	url = git://github.com/LuaDist/wsapi.git
