@@ -22,16 +22,16 @@ local manifest = {}
 for name, url in pairs(repo) do
     local remote = io.popen("git ls-remote --tags "..url)
     for line in remote:lines() do
-        local hash, tag = line:match("([^%s]+)%srefs/tags/v([^%s%^]+)$")
+        local hash, tag = line:match("([^%s]+)%srefs/tags/([^%s%^]+)$")
         if hash and tag then
             -- Collect dist.info for each tag
-            local url = "https://github.com/LuaDist/"..name.."/raw/v"..tag.."/dist.info"
+            local url = "https://github.com/LuaDist/"..name.."/raw/"..tag.."/dist.info"
             local info = man.info(per.loadText(fet.get(url)) or {})
             if info then
                 print(info.name, info.version)
                 -- Small hack to generate correct filename
                 -- I apologize to GitHub for (ab)using their automated zip feature.
-                info.path = "http://nodeload.github.com/LuaDist/"..name.."/zipball/v"..tag.."?/"..info.name.."-"..info.version..".dist"
+                info.path = "http://nodeload.github.com/LuaDist/"..name.."/zipball/"..tag.."?/"..info.name.."-"..info.version..".dist"
                 table.insert(manifest, info)
             end
         end
