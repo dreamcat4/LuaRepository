@@ -43,9 +43,6 @@
 [submodule "tcc"]
 	path = tcc
 	url = git://github.com/LuaDist/tcc.git
-[submodule "stdlib"]
-	path = stdlib
-	url = git://github.com/LuaDist/stdlib.git
 [submodule "sputnik_tickets"]
 	path = sputnik_tickets
 	url = git://github.com/LuaDist/sputnik_tickets.git
