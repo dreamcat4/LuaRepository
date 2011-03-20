@@ -13,8 +13,8 @@ To build LuaDist with everything under version management the build process requ
 
 Step one. Check out Repository and needed submodules.
 
-    git clone git://github.com/LuaDist/Bootstrap.git
-    cd Bootstrap
+    git clone git://github.com/LuaDist/Repository.git
+    cd Repository
     git submodule update --init lua luafilesystem luadist md5 luasocket luasec openssl unzip
 
 Step two. Bootstrap LuaDist using the install tool.
@@ -37,11 +37,9 @@ To make a distribution containing luajit, luasocket and luafilesystem you can us
 
 Note that this mode of installation installs most recent versions of modules and does not handle dependencies automatically. If you checked out any of the modules using submodules the utility will use the local files, otherwise it will access remote git repositories. However, the installation script is able to install specific tags of modules. It is up to you to install correct dependencies, otherwise the distribution may be unusable.
 
-    ./install md5-1.1.2 
-    ./bin/lua
+    ./install lua-5.1.4-1 md5-1.1.2 
+    ./_install/bin/lua
     > require "md5"
-
-Adding new modules can be done anytime later with the installation script. Once your installation is finalized you can safely remove all files and directories other than bin, lib, include, etc and share.
 
 Cloning
 -------
