@@ -9,7 +9,7 @@ The second mode of operation directly checks out repositories using git or avail
 Bootstraping LuaDist deployment tool
 ---
 
-To build LuaDist with everything under version management the build process requires two steps.
+To build LuaDist with everything under version management the build process requires two steps. Please make sure your system has git, CMake 2.8  and a compiler toolchain available. On Ubuntu this requires git, cmake, build-essential.
 
 Step one. Check out Repository and needed submodules.
 

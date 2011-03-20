@@ -125,6 +125,7 @@ foreach ( DIST ${INSTALL_DISTS} )
   install_dist ( ${DIST} )
 endforeach ()
 
+# On CMake 2.8.2 (Ubuntu) This may generate an error even if everything is fine. Ignore it, or update to 2.8.4.
 add_custom_target ( install
   COMMAND echo "Installation Complete."
   DEPENDS ${_PREV}

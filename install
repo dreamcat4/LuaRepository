@@ -7,8 +7,6 @@
 # Install all dists from repository into current directory
 # In case it is called in the repository it will install into LuaDist folder
 #
-set -e
-
 REPO=`dirname "$(cd ${0%/*} && echo $PWD/${0##*/})"`
 DEPL=$PWD
 DISTS=$*
@@ -52,7 +50,7 @@ echo "Installing: $*"
 echo "Destination: $DEPL"
 echo "Repository: $REPO"
 
-# Install
+# Install (this may fail on 2.8.2 cmake, but will generate successful install)
 mkdir -p "$DEPL/tmp/install" && cd "$DEPL/tmp/install" && cmake "$REPO" -DCMAKE_INSTALL_PREFIX="$DEPL" -DDISTS="$DISTS"
 cmake --build "$DEPL/tmp/install" --target install
 
@@ -65,3 +63,5 @@ then
   echo ">> You can install modules anytime using the bin/luadist utility."
   echo ">> If this software is useful to you support its development at www.luadist.org."
 fi
+
+echo "NOTE: If you received dependency error your build should be ok anyway. Update to CMake 2.8.4 to avoid this bug."
