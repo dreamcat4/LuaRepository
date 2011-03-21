@@ -1335,6 +1335,18 @@ return {
 {
 		['type'] = 	[[source]],
 		['arch'] = 	[[Universal]],
+		['author'] = 	[[Ben Kelly]],
+		['desc'] = 	[[A Lua library for packing and unpacking binary data, supporting arbitrary (byte-aligned) widths, named fields, and repetition.]],
+		['name'] = 	[[vstruct]],
+		['maintainer'] = 	[[Peter Drahoš]],
+		['path'] = 	[[http://nodeload.github.com/LuaDist/vstruct/zipball/1.1?/vstruct-1.1.dist]],
+		['license'] = 	[[MIT/X11]],
+		['url'] = 	[[https://github.com/ToxicFrog/vstruct]],
+		['version'] = 	[[1.1]],
+	},
+{
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
 		['author'] = 	[[Alexandre Erwin Ittner]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],

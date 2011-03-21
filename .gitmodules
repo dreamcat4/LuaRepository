@@ -538,3 +538,6 @@
 [submodule "wsapi"]
 	path = wsapi
 	url = git://github.com/LuaDist/wsapi.git
+[submodule "vstruct"]
+	path = vstruct
+	url = git://github.com/LuaDist/vstruct.git
