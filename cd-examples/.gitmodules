@@ -1,0 +1,3 @@
+[submodule "cd-examples"]
+	path = cd-examples
+	url = git://github.com/LuaDist/cd-examples.git
