@@ -469,9 +469,6 @@
 [submodule "concurrentlua"]
 	path = concurrentlua
 	url = git://github.com/LuaDist/concurrentlua.git
-[submodule "colors"]
-	path = colors
-	url = git://github.com/LuaDist/colors.git
 [submodule "cmake"]
 	path = cmake
 	url = git://github.com/LuaDist/cmake.git
@@ -541,3 +538,6 @@
 [submodule "vstruct"]
 	path = vstruct
 	url = git://github.com/LuaDist/vstruct.git
+[submodule "lua-colors"]
+	path = lua-colors
+	url = git@github.com:LuaDist/lua-colors.git
