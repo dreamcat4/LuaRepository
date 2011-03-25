@@ -190,9 +190,9 @@
 [submodule "luapi"]
 	path = luapi
 	url = git://github.com/LuaDist/luapi.git
-[submodule "luamatrix"]
-	path = luamatrix
-	url = git://github.com/LuaDist/luamatrix.git
+[submodule "lua-matrix"]
+	path = lua-matrix
+	url = git://github.com/LuaDist/lua-matrix.git
 [submodule "lualogging"]
 	path = lualogging
 	url = git://github.com/LuaDist/lualogging.git
