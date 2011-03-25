@@ -541,3 +541,6 @@
 [submodule "vstruct"]
 	path = vstruct
 	url = git://github.com/LuaDist/vstruct.git
+[submodule "luarocks"]
+	path = luarocks
+	url = git://github.com/LuaDist/luarocks.git
