@@ -3,9 +3,9 @@
 # Redistribution and use of this file is allowed according to the terms of the MIT license.
 # For details see the COPYRIGHT file distributed with LuaDist.
 # Please note that the package source code is licensed under its own license.
-# 
+# dsa
 # Install all dists from repository into current directory
-# In case it is called in the repository it will install into LuaDist folder
+# In case it is called in the repository it will install into _install folder
 #
 REPO=`dirname "$(cd ${0%/*} && echo $PWD/${0##*/})"`
 DEPL=$PWD
@@ -24,18 +24,7 @@ then
   echo "This utility will install LuaDist modules into current directory. If called in the repository it will install into '_install' folder to avoid collisions. Modules to install are identified by name or name-version arguments. The installation will use sources from the Repository if they are available, if not it will look for the git repository directly."
   echo "WARNING: This utility does not automatically install dependencies. Consider bootstrapping the automated deployment utility."
   echo "USE: ./install [module_name-module_ver] [module_name]"
-  echo "BOOTSTRAP: ./install bootstrap"
   exit
-fi
-
-# Bootstrap dists
-if [ "$1" = "bootstrap" ]
-then
-  echo ">> Bootstrapping LuaDist .. this may take a while."
-  # Build these using install directly
-  DISTS="lua luafilesystem luadist"
-  BOOT=$DEPL
-  DEPL=$DEPL/tmp/_bootstrap
 fi
 
 # Prevent root install
@@ -45,7 +34,6 @@ then
   exit
 fi
 
-
 echo "Installing: $*"
 echo "Destination: $DEPL"
 echo "Repository: $REPO"
@@ -53,15 +41,5 @@ echo "Repository: $REPO"
 # Install (this may fail on 2.8.2 cmake, but will generate successful install)
 mkdir -p "$DEPL/tmp/install" && cd "$DEPL/tmp/install" && cmake "$REPO" -DCMAKE_INSTALL_PREFIX="$DEPL" -DDISTS="$DISTS"
 cmake --build "$DEPL/tmp/install" --target install
-
-# Finish bootstrap
-if [ "$1" = "bootstrap" ]
-then
-  echo ">> Bootstrap Complete. Building final release."
-  $DEPL/bin/luadist "$BOOT" install luadist -repo="$REPO"
-  echo ">> Your LuaDist distribution is available at: $BOOT"
-  echo ">> You can install modules anytime using the bin/luadist utility."
-  echo ">> If this software is useful to you support its development at www.luadist.org."
-fi
 
 echo "NOTE: If you received dependency error your build should be ok anyway. Update to CMake 2.8.4 to avoid this bug."
