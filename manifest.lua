@@ -20,7 +20,7 @@ modules:close()
 -- Collect tags for each module
 local manifest = {}
 for name, url in pairs(repo) do
-    local remote = io.popen("git ls-remote --tags "..url)
+    local remote = io.popen("git ls-remote --tags "..url.. " | tail -r")
     for line in remote:lines() do
         local hash, tag = line:match("([^%s]+)%srefs/tags/([^%s%^]+)$")
         if hash and tag then
