@@ -11,7 +11,7 @@ include ( ExternalProject )
 ## SETTINGS
 # Build Release by default
 if ( NOT CMAKE_BUILD_TYPE)
-  set ( CMAKE_BUILD_TYPE "Release" CACHE STRING "Choose the type of build, options are: Debug Release RelWithDebInfo MinSizeRel." FORCE )
+  set ( CMAKE_BUILD_TYPE "MinSizeRel" CACHE STRING "Choose the type of build, options are: Debug Release RelWithDebInfo MinSizeRel." FORCE )
 endif ()
 
 # Install dists required for bootstrap by default
@@ -29,7 +29,7 @@ configure_file ( config.in ${CMAKE_CURRENT_BINARY_DIR}/config.cmake )
 
 ## External projects needed for Bootstrap
 macro ( install_dist _DIST )
-  string ( REGEX MATCH "^([a-z]+[a-z-]*[a-z]+)-?([^-]*)$" _DIST_NAME ${_DIST} )
+  string ( REGEX MATCH "^([a-z]+[a-z0-9_.:-]*[a-z0-9]+)-?([^-]*)$" _DIST_NAME ${_DIST} )
   set ( _DIST_NAME ${CMAKE_MATCH_1} )
   set ( _DIST_VER ${CMAKE_MATCH_2} )
 
@@ -52,8 +52,7 @@ macro ( install_dist _DIST )
       ${_DIST_SOURCE}
       BINARY_DIR ${_DIST_NAME}-${_DIST_VER}
       INSTALL_DIR ${CMAKE_INSTALL_PREFIX}
-      CMAKE_ARGS
-		-C ${CMAKE_CURRENT_BINARY_DIR}/config.cmake
+      CMAKE_ARGS -C ${CMAKE_CURRENT_BINARY_DIR}/config.cmake
       DEPENDS ${_PREV}
     )
     set ( _PREV ${_DIST_NAME})

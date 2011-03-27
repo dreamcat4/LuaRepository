@@ -9,24 +9,18 @@ The second mode of operation directly checks out repositories using git or avail
 Bootstraping LuaDist deployment tool
 ---
 
-To build LuaDist with everything under version management the build process requires two steps. Please make sure your system has git, CMake 2.8  and a compiler toolchain available. On Ubuntu this requires git, cmake, build-essential.
-
-Step one. Check out Repository and needed submodules.
+Please make sure your system has git, CMake 2.8  and a compiler tool-chain available. On Ubuntu this requires git, cmake, build-essential. This build will take quite a while to compile, please be patient.
 
     git clone git://github.com/LuaDist/Repository.git
     cd Repository
-    git submodule update --init lua luafilesystem luadist md5 luasocket luasec openssl unzip
-
-Step two. Bootstrap LuaDist using the install tool.
-
     ./install bootstrap
    
-Once the installation finishes the _install folder should contain a fully versioned LuaDist distribution.
+Once the installation finishes the LuaDist folder should contain a fully versioned LuaDist distribution.
 
-    cd _install
+    cd LuaDist
     ./bin/luadist list # lists installed modules
     ./bin/luadist search # lists online repository
-    ./bin/luadist install luaexpat # installs luaexpat     
+    ./bin/luadist install luaexpat # installs luaexpat
 
 Using the install script to generate distribution without versioning.
 ---
