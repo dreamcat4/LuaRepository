@@ -29,9 +29,9 @@ configure_file ( config.in ${CMAKE_CURRENT_BINARY_DIR}/config.cmake )
 
 ## External projects needed for Bootstrap
 macro ( install_dist _DIST )
-  string ( REGEX MATCH "[^-]*" _DIST_NAME ${_DIST} )
-  string ( REGEX MATCH "-.*" _DIST_VER ${_DIST} )
-  string ( REPLACE "-" "" _DIST_VER "${_DIST_VER}" )
+  string ( REGEX MATCH "^([a-z]+[a-z-]*[a-z]+)-?([^-]*)$" _DIST_NAME ${_DIST} )
+  set ( _DIST_NAME ${CMAKE_MATCH_1} )
+  set ( _DIST_VER ${CMAKE_MATCH_2} )
 
   # If no specific version was requested
   if ( _DIST_VER STREQUAL "" )
@@ -40,7 +40,7 @@ macro ( install_dist _DIST )
   endif ()
 
   # Use local resources if they are availble
-  if ( EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/${_DIST_NAME}/dist.info )
+  if ( EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/${_DIST_NAME}/CMakeLists.txt )
     set ( _DIST_SOURCE SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/${_DIST_NAME} )
   else ()
     set ( _DIST_SOURCE GIT_REPOSITORY http://github.com/LuaDist/${_DIST_NAME}.git GIT_TAG ${_DIST_VER} )
