@@ -3,7 +3,7 @@
 
 # Basic (Obrained from master script)
 set ( CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}" CACHE STRING "Installation destination." FORCE )
-set ( DCMAKE_BUILD_TYPE "${DCMAKE_BUILD_TYPE}" CACHE STRING "Build type." FORCE )
+set ( CMAKE_BUILD_TYPE "${CMAKE_BUILD_TYPE}" CACHE STRING "Build type." FORCE )
 set ( CMAKE_INCLUDE_PATH "${CMAKE_INCLUDE_PATH}" CACHE STRING "Where to search for headers." FORCE )
 set ( CMAKE_LIBRARY_PATH "${CMAKE_LIBRARY_PATH}" CACHE STRING "Where to search for libraries." FORCE )
 
