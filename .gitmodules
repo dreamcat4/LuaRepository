@@ -544,3 +544,6 @@
 [submodule "lua-matrix"]
 	path = lua-matrix
 	url = git://github.com/LuaDist/lua-matrix.git
+[submodule "bootstrap"]
+	path = bootstrap
+	url = git://github.com/LuaDist/Bootstrap.git
