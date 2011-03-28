@@ -2,23 +2,22 @@
 # Redistribution and use of this file is allowed according to the terms of the MIT license.
 # For details see the COPYRIGHT file distributed with LuaDist.
 # Please note that the package source code is licensed under its own license.
-
+#
 # This is a straightforward installer for LuaDist modules.
+
 project ( luadist_installer NONE )
 cmake_minimum_required ( VERSION 2.8 )
 include ( ExternalProject )
 
-## SETTINGS
+## BASIC SETTINGS
 # Build Release by default
 if ( NOT CMAKE_BUILD_TYPE)
   set ( CMAKE_BUILD_TYPE "MinSizeRel" CACHE STRING "Choose the type of build, options are: Debug Release RelWithDebInfo MinSizeRel." FORCE )
 endif ()
 
 # Install dists required for bootstrap by default
-if ( NOT DISTS OR DISTS STREQUAL "" )
-  set ( DISTS "lua-5.1.4 luafilesystem luasocket md5 unzip openssl luasec luadist" CACHE STRING "List of dists to install (in order)." FORCE )
-endif ()
-string ( REPLACE " " ";" INSTALL_DISTS "${DISTS}" )
+set ( DISTS bootstrap CACHE STRING "List of dists to install (in order)." )
+string ( REPLACE " " ";" DISTS "${DISTS}" )
 
 # Search paths
 set ( CMAKE_INCLUDE_PATH ${CMAKE_INSTALL_PREFIX}/${INSTALL_INC} CACHE PATH "Path to search for headers." FORCE )
@@ -27,7 +26,8 @@ set ( CMAKE_LIBRARY_PATH ${CMAKE_INSTALL_PREFIX}/${INSTALL_LIB} CACHE PATH "Path
 # Generate cache
 configure_file ( config.in ${CMAKE_CURRENT_BINARY_DIR}/config.cmake )
 
-## External projects needed for Bootstrap
+## EXTERNAL PROJECTS
+# Download and build external project using generated cache
 macro ( install_dist _DIST )
   string ( REGEX MATCH "^([a-z]+[a-z0-9_.:-]*[a-z0-9]+)-?([^-]*)$" _DIST_NAME ${_DIST} )
   set ( _DIST_NAME ${CMAKE_MATCH_1} )
@@ -39,14 +39,14 @@ macro ( install_dist _DIST )
     set ( _DIST_VER master )
   endif ()
 
-  # Use local resources if they are availble
+  # Use local submodules if they are availble, use git if not
   if ( EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/${_DIST_NAME}/CMakeLists.txt )
     set ( _DIST_SOURCE SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/${_DIST_NAME} )
   else ()
     set ( _DIST_SOURCE GIT_REPOSITORY http://github.com/LuaDist/${_DIST_NAME}.git GIT_TAG ${_DIST_VER} )
   endif ()
   
-  # Build project with all configuration
+  # Build project using the generated settings in cache
   ExternalProject_Add( ${_DIST_NAME} 
       PREFIX ${_DIST_NAME}-${_DIST_VER}
       ${_DIST_SOURCE}
@@ -59,12 +59,13 @@ macro ( install_dist _DIST )
     list ( APPEND DEPS ${_DIST_NAME} )
 endmacro ()
 
-# Build all dists
-foreach ( DIST ${INSTALL_DISTS} )
+# Chanin to build all dists
+foreach ( DIST ${DISTS} )
   install_dist ( ${DIST} )
 endforeach ()
 
-# On CMake 2.8.2 (Ubuntu) This may generate an error even if everything is fine. Ignore it, or update to 2.8.4.
+## INSTALL
+# Depend on the dist depencency chain
 add_custom_target ( install
   COMMAND echo "Installation Complete."
   DEPENDS ${_PREV}

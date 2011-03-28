@@ -17,7 +17,7 @@ Please make sure your system has git, CMake 2.8  and a compiler tool-chain avail
    
 Once the installation finishes the LuaDist folder should contain a fully versioned LuaDist distribution.
 
-    cd LuaDist
+    cd _install
     ./bin/luadist list # lists installed modules
     ./bin/luadist search # lists online repository
     ./bin/luadist install luaexpat # installs luaexpat
