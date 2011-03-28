@@ -14,6 +14,9 @@ Please make sure your system has git, CMake 2.8  and a compiler tool-chain avail
     git clone git://github.com/LuaDist/Repository.git
     cd Repository
     git submodule update --init bootstrap
+    cd bootstrap
+    git submodule update --init
+    cd ..
     ./install bootstrap
    
 Once the installation finishes the LuaDist folder should contain a fully versioned LuaDist distribution.
