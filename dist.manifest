@@ -852,22 +852,6 @@ return {
 {
 		['type'] = 	[[source]],
 		['arch'] = 	[[Universal]],
-		['author'] = 	[[Roberto Ierusalimschy, André Carregal, Tomás Guisasola and others]],
-		['depends'] = 	{
-				[[lua ~> 5.1]],
-				[[luafilesystem >= 1.5.0]],
-		},
-		['desc'] = 	[[Tool for creating dynamic Web pages and manipulating data from Web forms.]],
-		['version'] = 	[[5.1.4]],
-		['maintainer'] = 	[[Peter Drahoš]],
-		['path'] = 	[[http://nodeload.github.com/LuaDist/cgilua/zipball/v5.1.4?/cgilua-5.1.4.dist]],
-		['license'] = 	[[Kepler]],
-		['name'] = 	[[cgilua]],
-		['url'] = 	[[http://www.keplerproject.org/cgilua/]],
-	},
-{
-		['type'] = 	[[source]],
-		['arch'] = 	[[Universal]],
 		['author'] = 	[[Danilo Tuler, Tomás Guisasola]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],
@@ -1195,6 +1179,20 @@ return {
 {
 		['type'] = 	[[source]],
 		['arch'] = 	[[Universal]],
+		['author'] = 	[[Fabien Fleutot]],
+		['depends'] = 	{
+				[[lua ~> 5.1]],
+		},
+		['desc'] = 	[[Metalua is a static metaprogramming system for Lua: a set of tools that let you alter the compilation process in arbitrary, powerful and maintainable ways.]],
+		['version'] = 	[[0.5]],
+		['maintainer'] = 	[[Michal Kottman]],
+		['url'] = 	[[http://metalua.luaforge.net/]],
+		['path'] = 	[[http://nodeload.github.com/LuaDist/metalua/zipball/0.5?/metalua-0.5.dist]],
+		['name'] = 	[[metalua]],
+	},
+{
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
 		['depends'] = 	{
 				[[lua ~> 5.1]],
 		},
@@ -1205,21 +1203,6 @@ return {
 		['license'] = 	[[GPL]],
 		['name'] = 	[[lip]],
 		['url'] = 	[[http://luaforge.net/projects/lip/]],
-	},
-{
-		['type'] = 	[[source]],
-		['arch'] = 	[[Universal]],
-		['author'] = 	[[Roberto Ierusalimschy, Marcela Ozório Suarez, Tomás Guisasola, Fábio Mascarenhas]],
-		['depends'] = 	{
-				[[lua ~> 5.1]],
-		},
-		['desc'] = 	[[MD5 offers basic cryptographic facilities for Lua 5.1: a hash (digest) function, and a pair crypt/decrypt.]],
-		['version'] = 	[[1.1.2]],
-		['maintainer'] = 	[[Peter Drahoš]],
-		['path'] = 	[[http://nodeload.github.com/LuaDist/md5/zipball/1.1.2?/md5-1.1.2.dist]],
-		['license'] = 	[[MIT/X11]],
-		['name'] = 	[[md5]],
-		['url'] = 	[[http://www.keplerproject.org/md5/]],
 	},
 {
 		['type'] = 	[[source]],
@@ -1614,21 +1597,6 @@ return {
 		['license'] = 	[[Tecgraf Library License/MIT]],
 		['name'] = 	[[cdlua]],
 		['url'] = 	[[http://www.tecgraf.puc-rio.br/cd]],
-	},
-{
-		['type'] = 	[[source]],
-		['arch'] = 	[[Universal]],
-		['author'] = 	[[Mark Edgar]],
-		['depends'] = 	{
-				[[lua ~> 5.1]],
-		},
-		['desc'] = 	[[Implemenation of 'ex' API - portable os and io extension functions]],
-		['version'] = 	[[20091019]],
-		['maintainer'] = 	[[Peter Drahoš]],
-		['path'] = 	[[http://nodeload.github.com/LuaDist/luaex/zipball/v20091019?/luaex-20091019.dist]],
-		['url'] = 	[[http://lua-users.org/wiki/ExtensionProposal]],
-		['license'] = 	[[MIT]],
-		['name'] = 	[[luaex]],
 	},
 {
 		['type'] = 	[[source]],
