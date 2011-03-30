@@ -19,10 +19,6 @@ endif ()
 set ( DISTS bootstrap CACHE STRING "List of dists to install (in order)." )
 string ( REPLACE " " ";" DISTS "${DISTS}" )
 
-# Search paths
-set ( CMAKE_INCLUDE_PATH ${CMAKE_INSTALL_PREFIX}/${INSTALL_INC} CACHE PATH "Path to search for headers." FORCE )
-set ( CMAKE_LIBRARY_PATH ${CMAKE_INSTALL_PREFIX}/${INSTALL_LIB} CACHE PATH "Path to search for libraries." FORCE )
-
 # Generate cache
 configure_file ( config.in ${CMAKE_CURRENT_BINARY_DIR}/config.cmake )
 
