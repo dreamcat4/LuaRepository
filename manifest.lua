@@ -31,7 +31,7 @@ for name, url in pairs(repo) do
                 print(info.name, info.version)
                 -- Small hack to generate correct filename
                 -- I apologize to GitHub for (ab)using their automated zip feature.
-                info.path = "http://nodeload.github.com/LuaDist/"..name.."/zipball/"..tag.."?/"..info.name.."-"..info.version..".dist"
+                info.path = "https://github.com/LuaDist/"..name.."/zipball/"..tag.."?/"..info.name.."-"..info.version..".dist"
                 table.insert(manifest, info)
             end
         end
