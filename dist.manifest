@@ -1735,6 +1735,22 @@ return {
 {
 		['type'] = 	[[source]],
 		['arch'] = 	[[Universal]],
+		['author'] = 	[[Sébastien Boisgérault]],
+		['depends'] = 	{
+				[[lua ~> 5.1]],
+				[[luaexpat >=1.1]],
+		},
+		['desc'] = 	[[Lua Element Tree is a library that enables manipulation of XML documents as simple data structures in Lua.]],
+		['version'] = 	[[0.1.1]],
+		['maintainer'] = 	[[Peter Kapec]],
+		['path'] = 	[[http://nodeload.github.com/LuaDist/etree/zipball/v0.1.1?/etree-0.1.1.dist]],
+		['license'] = 	[[MIT]],
+		['name'] = 	[[etree]],
+		['url'] = 	[[http://luaforge.net/projects/etree/]],
+	},
+{
+		['type'] = 	[[source]],
+		['arch'] = 	[[Universal]],
 		['author'] = 	[[Open Market, Rob Saccoccio & others]],
 		['desc'] = 	[[FastCGI is simple because it is actually CGI with only a few extensions.]],
 		['name'] = 	[[fcgi]],
