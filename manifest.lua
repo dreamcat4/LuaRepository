@@ -28,10 +28,10 @@ for name, url in pairs(repo) do
             local url = "https://github.com/LuaDist/"..name.."/raw/"..tag.."/dist.info"
             local info = man.info(per.loadText(fet.get(url)) or {})
             if info then
-                print(info.name, info.version)
                 -- Small hack to generate correct filename
                 -- I apologize to GitHub for (ab)using their automated zip feature.
-                info.path = "https://github.com/LuaDist/"..name.."/zipball/"..tag.."?/"..info.name.."-"..info.version..".dist"
+                info.path = "http://nodeload.github.com/LuaDist/"..name.."/zipball/"..tag.."?/"..info.name.."-"..info.version..".dist"
+                print(info.name, info.version, info.path)
                 table.insert(manifest, info)
             end
         end
