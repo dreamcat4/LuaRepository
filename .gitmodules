@@ -546,7 +546,7 @@
 	url = git://github.com/LuaDist/lua-matrix.git
 [submodule "bootstrap"]
 	path = bootstrap
-	url = git://github.com/LuaDist/Bootstrap.git
+	url = git://github.com/LuaDist/bootstrap.git
 [submodule "metalua"]
 	path = metalua
 	url = git://github.com/LuaDist/metalua.git
